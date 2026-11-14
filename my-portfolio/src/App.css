@@ -215,6 +215,29 @@
   font-size: 18px;
   line-height: 1.8;
 }
+.footer {
+  padding: 25px 80px;
+  border-top: 1px solid #252832;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  color: #a1a1aa;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #a5b4fc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.footer a:hover {
+  color: white;
+}
 /* RESPONSIVE */
 
 @media (max-width: 768px) {
@@ -240,8 +263,24 @@
   .skills {
   padding: 60px 24px;
 }
-
+.about {
+  padding: 60px 24px;
+}
+.contact {
+  padding: 60px 24px;
+}
+.projects {
+  padding: 60px 24px;
+}
 .skills-container {
   grid-template-columns: 1fr;
 }
+.footer{
+  padding:25px 24px;
+  flex-direction:column;
+  gap:12px;
+}
+.projects-container {
+    grid-template-columns: 1fr;
+  }
 }
