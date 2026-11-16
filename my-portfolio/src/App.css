@@ -47,6 +47,7 @@
   overflow: hidden;
 }
 
+
 /* ==============================
    ANIMATED BACKGROUND GLOW
 ================================ */
@@ -663,6 +664,110 @@ justify-content: center;
 }
 /* RESPONSIVE
  */
+
+
+/* CONTACT SECTION */
+
+.contact {
+  min-height: 85vh;
+  padding: 80px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f1117;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  width: 100%;
+  max-width: 850px;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-eyebrow {
+  color: #a5b4fc;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 22px;
+}
+
+.contact-content h1 {
+  color: white;
+  font-size: clamp(38px, 5vw, 60px);
+  line-height: 1.15;
+  margin-bottom: 25px;
+}
+
+.contact-content h1 span {
+  display: block;
+  color: #a5b4fc;
+}
+
+.contact-description {
+  max-width: 650px;
+  margin: 0 auto 35px;
+  color: #a1a1aa;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* CONTACT BUTTONS */
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.contact-link-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 25px;
+  background-color: #181b24;
+  color: white;
+  border: 1px solid #303442;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-link-btn span {
+  color: #a5b4fc;
+  font-weight: 700;
+}
+
+.contact-link-btn:hover {
+  background-color: #a5b4fc;
+  color: #0f1117;
+  border-color: #a5b4fc;
+  transform: translateY(-4px);
+}
+
+.contact-link-btn:hover span {
+  color: #0f1117;
+}
+
+/* HIDE OLD SIDE CARD */
+.contact-side {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .navbar {

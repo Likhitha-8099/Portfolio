@@ -36,10 +36,7 @@ function Hero() {
 
       </div>
 
-      {/* Scroll Indicator */}
-      <p className="hero-scroll">
-        SCROLL TO DISCOVER <span>↓</span>
-      </p>
+      
 
     </section>
   );
