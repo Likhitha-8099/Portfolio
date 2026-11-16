@@ -1,5 +1,5 @@
 
-function Projects() {
+function ProjectsSection() {
   return (
     <section className="projects" id="projects">
       <h2>My Projects</h2>
@@ -101,4 +101,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsSection;
